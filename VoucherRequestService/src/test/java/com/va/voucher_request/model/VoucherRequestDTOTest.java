@@ -14,7 +14,7 @@ public class VoucherRequestDTOTest {
 	        VoucherRequestDto voucherRequestDto = new VoucherRequestDto("1", "John Doe", "john@example.com", "AWS", "AWS Certified Developer", 80, "scoreImage", LocalDate.now());
 
 	        assertEquals("1", voucherRequestDto.getId());
-	        assertEquals("John Doe", voucherRequestDto.getCandidateName());
+	        assertEquals("John", voucherRequestDto.getCandidateName());
 	        assertEquals("john@example.com", voucherRequestDto.getCandidateEmail());
 	        assertEquals("AWS", voucherRequestDto.getCloudPlatform());
 	        assertEquals("AWS Certified Developer", voucherRequestDto.getCloudExam());
